@@ -1,5 +1,5 @@
 
-# Application of summarizing sentences and Displaying sentences as graphs
+# Application of summarizing text and Displaying text as graph
 <table>
 <tr>
 <td>
