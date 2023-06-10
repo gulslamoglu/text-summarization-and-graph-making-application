@@ -13,14 +13,9 @@
 <tr>
   <td>
   The nltk library was used to simplify the text. The libraries scikit-learn, spacy, gensim, py-rouge were used for summarizing and scoring the text.
-</td>
-<td>
+  Networkx library was used for graph representation.
   The interface design was made with PyQt5.
 </td>
-<td>
-  Networkx library was used for graph representation.
- </td>
 </tr>
 </table>
-
 
