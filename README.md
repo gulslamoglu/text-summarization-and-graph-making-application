@@ -1,0 +1,26 @@
+# yazlab2
+# Application of summarizing sentences and Displaying sentences as graphs
+<table>
+<tr>
+<td>
+  This program is for selecting a text document from the interface, summarizing the text in this document, and showing it in graph form.
+</td>
+</tr>
+</table>
+
+# Interface and Algorithm Design
+ <table>
+<tr>
+  <td>
+  The nltk library was used to simplify the text. The libraries scikit-learn, spacy, gensim, py-rouge were used for summarizing and scoring the text.
+</td>
+<td>
+  The interface design was made with PyQt5.
+</td>
+<td>
+  Networkx library was used for graph representation.
+ </td>
+</tr>
+</table>
+
+
