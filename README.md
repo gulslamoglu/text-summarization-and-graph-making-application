@@ -1,4 +1,4 @@
-# yazlab2
+
 # Application of summarizing sentences and Displaying sentences as graphs
 <table>
 <tr>
