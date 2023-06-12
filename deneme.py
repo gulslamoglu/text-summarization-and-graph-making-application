@@ -11,7 +11,6 @@ from nltk.tokenize import word_tokenize,sent_tokenize
 import cumle_skoru_algoritmasi
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
-import summary
 import my_rouge
 
 def calculate_similarity_scores(sentences):
@@ -135,7 +134,7 @@ class UI(QMainWindow):
         threshold2 = self.textedit_2.toPlainText()
         return threshold2
     def buttonClicked3(self):
-        file_path = "C:\\Users\\USER\\Desktop\\yazlab2\\yeni.txt"
+        file_path = "C:\\Users\\gulis\\OneDrive\\Masaüstü\\text-summarization-and-graph-making-application\\yeni.txt"
 
         with open(file_path, "r") as file:
             metin = file.read()
@@ -150,7 +149,7 @@ class UI(QMainWindow):
         self.textedit_4.setText(str(skor))
 
     def create_text_graph(self):
-        file_path = "C:\\Users\\USER\\Desktop\\yazlab2\\yeni.txt"
+        file_path = "C:\\Users\\gulis\\OneDrive\\Masaüstü\\text-summarization-and-graph-making-application\\yeni.txt"
         G = nx.Graph()
         threshold = float(self.buttonClicked())
         
