@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import re
 import cumle_skoru_algoritmasi
 
-file_path = "C:\\Users\\USER\\Desktop\\yazlab2\\yeni.txt"
+file_path = "C:\\Users\\gulis\\OneDrive\\Masaüstü\\text-summarization-and-graph-making-application\\yeni.txt"
 
 with open(file_path, "r") as file:
             metin = file.read()
